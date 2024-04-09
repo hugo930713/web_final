@@ -18,6 +18,10 @@
 .env.test.local
 .env.production.local
 
+node_modules/      // 斜線 / 表示目錄
+/dist/
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+package-lock.json
