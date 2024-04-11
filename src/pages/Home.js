@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "../components/header"
 
-export default function Home()  {
+export default function Home() {
   return (
     <div id="root">
       {/*Nav*/}
@@ -195,7 +195,7 @@ Alternatively if you want to just have a single hero
 </section>
 
 */}
-      <section className="py-8 pb-12 bg-white">
+      {/* <section className="py-8 pb-12 bg-white">
         <div className="container flex flex-wrap items-center pt-4 mx-auto">
           <nav id="store" className="top-0 z-30 w-full px-6 py-1">
             <div className="container flex flex-wrap items-center justify-between w-full px-2 py-3 mx-auto mt-0">
@@ -321,9 +321,9 @@ Alternatively if you want to just have a single hero
           <a className='mx-3' href='#'>3</a>
           <a className='mx-3' href='#'>{'>'}</a>
         </div>
-      </section>
+      </section> */}
 
-      {/* <section className="py-8 bg-white">
+      <section className="py-8 bg-white">
         <div className="container flex flex-wrap items-center pt-4 pb-12 mx-auto">
           <nav id="store" className="top-0 z-30 w-full px-6 py-1">
             <div className="container flex flex-wrap items-center justify-between w-full px-2 py-3 mx-auto mt-0">
@@ -594,7 +594,7 @@ Alternatively if you want to just have a single hero
             </a>
           </div>
         </div>
-      </section> */}
+      </section>
 
       <section className="py-8 bg-white">
         <div className="container px-6 py-8 mx-auto text-center">
@@ -798,14 +798,14 @@ Alternatively if you want to just have a single hero
                   <input placeholder='訂閱電子報信箱'></input>
                   <button className='px-8 text-white bg-black'>訂閱</button>
                 </div>
-              </div> */}
-            </div>
-          </div>
-          <p className="mt-8 text-xs text-gray-800">© 2022 Comany Name</p>
-        </div>
-      </footer>
-
+              </div>
     </div>
+          </div >
+    <p className="mt-8 text-xs text-gray-800">© 2022 Comany Name</p>
+        </div >
+      </footer > 
+
+    </div >
 
   );
 }
