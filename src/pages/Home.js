@@ -792,18 +792,18 @@ Alternatively if you want to just have a single hero
                   </a>
                 </nav>
               </div>
-              {/* <div>
+              <div>
                 <p className="font-medium">訂閱電子報</p>
                 <div className='flex items-center justify-center h-10'>
                   <input placeholder='訂閱電子報信箱'></input>
                   <button className='px-8 text-white bg-black'>訂閱</button>
                 </div>
               </div>
-    </div>
+            </div>
           </div >
-    <p className="mt-8 text-xs text-gray-800">© 2022 Comany Name</p>
+          <p className="mt-8 text-xs text-gray-800">© 2022 Comany Name</p>
         </div >
-      </footer > 
+      </footer >
 
     </div >
 
